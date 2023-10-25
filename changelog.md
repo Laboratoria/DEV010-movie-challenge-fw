@@ -1,4 +1,4 @@
-## 1.0.0 - 2023-10-11
+## 1.0.0 - 2023-10-18
 
 ### Sprint learnings
 
@@ -8,11 +8,15 @@
 
 Vista home con peliculas, buscador, filtros y paginación
 
-### Changed
+## 1.0.0 - 2023-10-25
+
+### Sprint learnings
+
+Escritura de código con react y typeScript
+
+### Added
+
+Funcionalidad de botones para ordenar y filtrar
 
 
-### Fixed
-
-
-### Removed
 

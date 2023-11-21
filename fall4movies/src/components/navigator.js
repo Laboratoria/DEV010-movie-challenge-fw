@@ -3,7 +3,7 @@ import "../styles/navigator.css";
 
 function Navigator() {
   return <nav>
-    <ul>
+    <ul id="navUl">
       <li id="searcher">
         <input placeholder="Search">
         </input>

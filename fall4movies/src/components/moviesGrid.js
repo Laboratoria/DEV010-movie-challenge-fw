@@ -4,7 +4,7 @@ import "../styles/moviesGrid.css";
 
 function MoviesGrid(){
   return(
-    <ul>
+    <ul id="MoviesGrid">
       {movies.map( (movie) =>{
         return <Card key={movie.id} movie={movie}/>
     })}

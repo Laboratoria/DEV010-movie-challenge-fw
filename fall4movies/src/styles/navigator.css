@@ -2,7 +2,7 @@ nav{
     margin:0px 70px 0px 0px;
 }
 
-ul{
+#navUl{
   list-style-type: none;
   display: flex;
   flex-direction: row;

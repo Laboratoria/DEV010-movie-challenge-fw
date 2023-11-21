@@ -1,0 +1,22 @@
+article{
+min-width: 300px;
+display:flex;
+flex-direction: row;
+}
+
+img{
+    width: 100px;
+    margin:10px 0px 10px 30px;
+}
+
+img:hover{
+    rotate: 180deg;
+}
+
+h1{
+    font-family: 'Vina Sans', sans-serif;
+    color: #2653AF;
+    margin-top:18px;
+    font-size: 50px;
+    font-weight: 100;
+}

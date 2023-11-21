@@ -1,13 +1,15 @@
 import React from "react";
-import marioTest from "../images/marioTest.png"
 import "../styles/card.css";
 
-
-function Card() {
-    return <article className = "cardClass">
-      <img className="poster" src={marioTest} alt="Mario Movie"/>
-      <h2>MARIO BROS</h2>
-      <h3 id="year">2023</h3>
+function Card({ movie }) {
+    
+  const ImgUrl = "http://image.tmdb.org/t/p/w300" + movie.poster_path;
+  const title = movie.title.toUpperCase();
+  
+  return <article className = "cardClass">
+    <img className="poster" src={ImgUrl} alt={movie.title + " poster"}/>
+      <h2 id="movieTitle">{title}</h2>
+      <h3 id="year">{movie.release_date}</h3>
     </article>
   }
   

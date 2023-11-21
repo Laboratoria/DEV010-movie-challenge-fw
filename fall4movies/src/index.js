@@ -7,6 +7,9 @@ import './index.css';
 import SiteId from './components/siteID';
 import Navigator from './components/navigator';
 import Card from "./components/card";
+import Detail from './components/detail';
+import Copyrights from './components/copyrights';
+import Pagination from './components/pagination';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +20,11 @@ root.render(
       </header>
     <main>
       <Card/>
+      <Pagination/>
     </main>
-    <footer>Aqui va el footer</footer>
+    <footer>
+      <Copyrights/>
+    </footer>
   </React.StrictMode>
 );
 

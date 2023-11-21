@@ -7,7 +7,7 @@ function Card() {
     return <article className = "cardClass">
       <img className="poster" src={marioTest} alt="Mario Movie"/>
       <h2>MARIO BROS</h2>
-      <h3>2023</h3>
+      <h3 id="year">2023</h3>
     </article>
   }
   

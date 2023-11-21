@@ -1,11 +1,11 @@
 #siteIdArticle{
-min-width: 300px;
 display:flex;
 flex-direction: row;
 }
 
 #logoSite{
     width: 100px;
+    height: 90px;
     margin:10px 0px 10px 30px;
 }
 
@@ -19,6 +19,7 @@ h1{
     margin-top:18px;
     font-size: 50px;
     font-weight: 100;
+    margin-bottom: 30px;
 }
 
 @keyframes rotate {

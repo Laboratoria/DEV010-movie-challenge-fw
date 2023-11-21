@@ -1,0 +1,18 @@
+.copyrights{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+.TMDBLogo{
+    max-width: 150px;
+    margin-right: 30px;
+}
+
+#footerNote{
+    margin-right: 10px;
+    margin-top: 20px;
+    color: var(--accent-Rose);
+    font-weight:501px;
+}

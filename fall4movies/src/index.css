@@ -7,10 +7,6 @@
   --textPlain: font-family: 'Lato', sans-serif;
 }
 
-*{
-  margin: 0px;
-}
-
 body{
   margin: 0px;
   font-size: 18px;
@@ -18,10 +14,14 @@ body{
 
 header{
  background-color: var(--Contrast-Yellow);
+ Display:flex;
+ flex-direction: row;
+ justify-content: space-between;
 }
 
 main{
   background-color: var(--Background-blue);
+  padding:50px;
 }
 footer{
   background-color: var(--accent-Rose);

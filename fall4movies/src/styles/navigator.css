@@ -1,0 +1,33 @@
+nav{
+    margin:0px 70px 0px 0px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px 0px 0px;
+}
+
+#searcher{
+  margin-right: 10px;
+}
+
+#genrSelector{
+  margin-right: 10px;
+}
+
+input{
+  max-width: 120px;
+  border-color: #2653AF;
+}
+
+#genreSelect{
+  border-color: #2653AF;
+  background-color: #F3F3F1
+}
+
+#orderSelect{
+  border-color: #2653AF;
+  background-color: #F3F3F1
+}

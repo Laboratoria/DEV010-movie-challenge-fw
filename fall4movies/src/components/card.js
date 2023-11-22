@@ -14,5 +14,6 @@ function Card({ movie }) {
   }
   
   //TODO que al clickear el logo, recargue el site
+  //TODO Hacer una micro- funcioncita para que solo se vea el año
   
   export default Card;

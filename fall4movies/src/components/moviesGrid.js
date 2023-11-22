@@ -11,4 +11,6 @@ function MoviesGrid(){
   </ul>);
 };
 
+//TODO Hacer varias grillas por razones responsive (Aunque el proyecto no lo pidió)
+
 export default MoviesGrid;

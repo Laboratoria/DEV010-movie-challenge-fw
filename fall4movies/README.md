@@ -8,7 +8,7 @@ En el ejercicio de desarrollo web, se les pidió a las estudiantes que desarroll
 
 Siendo un proyecto de películas, el diseño del mismo está inspirado por la Nostalgia. La paleta de colores, recuerda a los de la mítica cadena de renta de películas Block Buster Video; y el logo, es un claro ícono que recuerda a la película de culto "Vértigo", de Alfred Hitchcock. 
 
-![Paleta de colores](./public/readmeImg/paleta.jpeg)
+![Paleta de colores](./public/readmeImg/paleta.jpg)
 ![icono](./public/readmeImg/logo.png)
 
 Se nos entregaron por parte de nuestro product owner ficticio, dos diseños de baja fidelidad que respondían a los deseos de nuestro cliente (también ficticio).  

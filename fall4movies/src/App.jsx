@@ -13,14 +13,13 @@ import Navigator from './components/navigator';
 import Detail from './components/detail';
 import Copyrights from './components/copyrights';
 // import Pagination from './components/pagination';
-
+import MoviesGrid from './components/moviesGrid';
 import ErrorPage from "./components/error-page";
-import { LandingPage } from "./pages/LandingPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPage/>,
+    element: <MoviesGrid />,
     errorElement: <ErrorPage />,
   },
   {

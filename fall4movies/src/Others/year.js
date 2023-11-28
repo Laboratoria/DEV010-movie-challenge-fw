@@ -1,6 +1,6 @@
 function year(fullDate){
-    var fecha = new Date(fullDate);
-    var result = fecha.getFullYear();
+    const newDate = new Date(fullDate);
+    const result = newDate.getFullYear();
 
     return result
 }

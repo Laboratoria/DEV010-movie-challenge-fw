@@ -30,3 +30,4 @@ function Navigator() {
   //TODO Funcionalidades de los selectores y del buscador
 
   export default Navigator;
+  

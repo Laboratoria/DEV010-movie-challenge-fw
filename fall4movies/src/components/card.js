@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/card.css";
+import { Link } from "react-router-dom";
 
 function Card({ movie }) {
     
@@ -7,9 +8,11 @@ function Card({ movie }) {
   const title = movie.title.toUpperCase();
   
   return <article className = "cardClass">
+    <Link to={"/detail/"+ movie.id }>
     <img className="poster" src={ImgUrl} alt={movie.title + " poster"}/>
       <h2 id="movieTitle">{title}</h2>
       <h3 id="year">{movie.release_date}</h3>
+      </Link>
     </article>
   }
   

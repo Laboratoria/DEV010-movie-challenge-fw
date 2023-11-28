@@ -16,4 +16,3 @@ export default function ErrorPage() {
 }
 
 //TODO mejorar la calidad de la imagen del logo
-//TODO animar el logo para que quede en caida infinita

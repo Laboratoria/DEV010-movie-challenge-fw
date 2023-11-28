@@ -10,6 +10,10 @@
   margin:20px;
 }
 
+.cardClass:hover{
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+
 .poster{
   width: 150px;
   display: flex;

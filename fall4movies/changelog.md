@@ -5,8 +5,7 @@
 
 ### Added
 * Se instaló el react router dom. 
-* Se agregó el ruteo al main. 
-* Se creó la carpeta "pages" para almacenar las vistas
+* Se agregó el ruteo al main.
 * Se creó un nuevo complemento, de página de error de ruteo
 
 ### Changed

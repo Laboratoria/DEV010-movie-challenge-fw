@@ -7,15 +7,20 @@
 * Se instaló el react router dom. 
 * Se agregó el ruteo al main.
 * Se creó un nuevo complemento, de página de error de ruteo
+* Se conectó la API a la grilla de películas
+* Se hicieron los espacios para poder conectar la API a la vista de detalle
+* Se hizo una función para separar el año de la fecha proporcionada por la API y asi mostrar solo el año en pantalla
+* Se hizo una función para mostrar un número determinado de estrellas por puntuación de cada película
+* Se hizo una función que extrae los géneros de cada pelicula del objeto que lo contiene, en un nuevo array, para mostrar cada género separado por comas. 
+
 
 ### Changed
 
+* Se cambio la dependencia del json de prueba, para empezar a usar la API en la vista de la grilla de películas
 
 ### Fixed
 
-
-### Removed
-
+* Se corrigieron cosas pequeñas de estructura de archivos. 
 
 
 ## <1.0> - <22-11-2023>

@@ -1,3 +1,17 @@
+## <1.2> - <6-12-2023>
+
+### Sprint learnings
+
+
+### Added
+
+
+### Changed
+
+
+### Fixed
+
+
 ## <1.1> - <29-11-2023>
 
 ### Sprint learnings

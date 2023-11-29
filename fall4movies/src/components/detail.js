@@ -1,13 +1,34 @@
-import React from "react";
-import returnBoton from  "../images/returnButton.png"
+//Importaciones de REACT
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
+//importaciones de estilos
 import "../styles/details.css";
+
+//Importaciones de funcionalidades
 import  stars from "../Others/stars";
 import year from "../Others/year";
-import { Link } from "react-router-dom";
+import returnBoton from  "../images/returnButton.png"
+import getHttp  from "../Others/httpClient";
 
-import movie from "../Others/movie.json";
 
+//VISTA DETAIL
 function Detail() {
+  const { movieId } = useParams();
+  const [ movie, setMovie ] = useState(null);
+  
+  useEffect(() => {
+    getHttp( "/movie/" + movieId )
+      .then( data => {
+        setMovie(data)
+      } )
+  }, [movieId])
+
+  if (!movie){
+    return null;
+  }
+
   const imgMovie = "http://image.tmdb.org/t/p/w300" + movie.poster_path;
   const title = movie.original_title;
   const releaseYear = year(movie.release_date);
@@ -41,7 +62,5 @@ function Detail() {
     </article>
   </section>
   }
-  
-  //TODO anadir funcionalidad al botón 
 
   export default Detail;

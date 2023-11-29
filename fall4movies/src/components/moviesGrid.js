@@ -1,7 +1,7 @@
-// import movies from "../Others/Prueba.json";
 import Card from "./card";
 import "../styles/moviesGrid.css";
 import { useEffect, useState } from "react";
+
 
 function MoviesGrid() {
 
@@ -20,10 +20,8 @@ function MoviesGrid() {
     .then(response => response.json()).then((data => {
        setMovie(data.results);
     }))
-    .then(response => console.log(response.results)
-    )
     .catch(err => console.error(err));
-  })
+  }, []);
 
   return (
     <ul id="MoviesGrid">
@@ -32,7 +30,5 @@ function MoviesGrid() {
       })}
     </ul>);
 };
-
-//TODO Hacer varias grillas por razones responsive (Aunque el proyecto no lo pidió)
 
 export default MoviesGrid;

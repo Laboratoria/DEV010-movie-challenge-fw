@@ -1,8 +1,8 @@
-function year(fullDate){
+function getYear(fullDate){
     const newDate = new Date(fullDate);
     const result = newDate.getFullYear();
 
     return result
 }
 
-export default year;
+export default getYear;

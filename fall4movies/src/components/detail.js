@@ -7,10 +7,10 @@ import { useParams } from "react-router-dom";
 import "../styles/details.css";
 
 //Importaciones de funcionalidades
-import  stars from "../Others/stars";
-import year from "../Others/year";
+import  stars from "../functions/stars";
+import getYear from "../functions/year";
 import returnBoton from  "../images/returnButton.png"
-import getHttp  from "../Others/httpClient";
+import getHttp  from "../functions/httpClient";
 
 
 //VISTA DETAIL
@@ -31,7 +31,7 @@ function Detail() {
 
   const imgMovie = "http://image.tmdb.org/t/p/w300" + movie.poster_path;
   const title = movie.original_title;
-  const releaseYear = year(movie.release_date);
+  const releaseYear = getYear(movie.release_date);
   const overwiew = movie.overview;
   const genres = movie.genres.map( genre => genre.name).join(", ");
   const rating = stars(movie.vote_average);

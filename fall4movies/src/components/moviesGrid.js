@@ -1,7 +1,7 @@
 import Card from "./card";
 import "../styles/moviesGrid.css";
 import { useEffect, useState } from "react";
-import getHttp from "../Others/httpClient";
+import getHttp from "../functions/httpClient";
 
 
 function MoviesGrid() {

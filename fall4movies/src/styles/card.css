@@ -6,7 +6,6 @@
   width: 200px;
   height:355px;
   padding:0px;
-  align-content: center;
   margin:20px;
 }
 
@@ -18,19 +17,21 @@
   width: 150px;
   display: flex;
   justify-content: center;
-  padding-top:10px;
-  padding: 15px 10px 0px 10px;
+  padding: 15px 10px 10px 10px;
 }
 
 #movieTitle{
   display:flex;
   text-justify: center;
   text-align: center;
+  justify-content: center;
 }
 
 #year{
+  display: flex;
   margin:0px 0px 15px 0px;
   padding:0px;
   font-size: smaller;
+  justify-content: center;
 }
 

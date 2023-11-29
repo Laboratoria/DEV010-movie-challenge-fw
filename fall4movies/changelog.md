@@ -8,8 +8,16 @@
 
 ### Changed
 
+* Se cambió el nombre de la carpeta Others, por "functions", y se actualizó su ruta en todos los componentes que lo requerían
+* Se cambió el nombre de la función year, por getYear y se actualizó en todos los componentes que la requerían
 
 ### Fixed
+
+* Se corrigió el link de la grilla de peliculas para que te envie al detalle, solo si presionas la foto de la peli, de modo que no se deforme la card
+
+### Removed
+
+* Se eliminaron los archivos json de prueba
 
 
 ## <1.1> - <29-11-2023>

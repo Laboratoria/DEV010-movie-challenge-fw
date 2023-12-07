@@ -4,6 +4,7 @@ import * as React from "react";
 import {
   createBrowserRouter,
   RouterProvider,
+ // useNavigate
 } from "react-router-dom";
 
 //Importaciones de componentes
@@ -15,6 +16,8 @@ import Copyrights from './components/copyrights';
 // import Pagination from './components/pagination';
 import MoviesGrid from './components/moviesGrid';
 import ErrorPage from "./components/error-page";
+// import SearchMovie from "./components/search"; 
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,12 @@ const router = createBrowserRouter([
     element:  <Detail/>,
     errorElement: <ErrorPage />,
   },
+  /*{
+    path:"/?search=" + searchText,
+    element: <MoviesGrid/>,
+    errorElement: <ErrorPage />,
+  }*/
+
 ]);
 
 
@@ -42,7 +51,7 @@ function App(){
       <Navigator />
     </header>
     <main>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </main>
     <footer>
       <Copyrights />

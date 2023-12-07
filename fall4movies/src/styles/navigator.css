@@ -31,3 +31,12 @@ input{
   border-color: #2653AF;
   background-color: #F3F3F1
 }
+
+.searchButton{
+  margin-top: 1px;
+  margin-left: -20px;
+  border:none;
+  background-color: var(--dirtyWhite);
+  cursor: pointer;
+  position:absolute;
+}

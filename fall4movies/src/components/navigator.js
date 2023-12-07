@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/navigator.css";
+import { SearchMovie } from "./search";
 
 function Navigator() {
   return <nav>
     <ul id="navUl">
       <li id="searcher">
-        <input placeholder="Search">
-        </input>
+        <SearchMovie/>
       </li>
       <li id="genrSelector">
         <select id="genreSelect" name="genre">

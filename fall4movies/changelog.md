@@ -4,6 +4,9 @@
 
 ### Added
 
+* Se agregó un nuevo componente, llamado search, para las búsquedas de películas en el site.
+* Se agregaron adornos para los botones, como hovers y otros detalles del cursor. 
+
 ### Changed
 
 ### Fixed

@@ -1,10 +1,26 @@
+## <1.3> - <13-12-2023>
+
+### Sprint learnings
+
+### Added
+
+### Changed
+
+### Fixed
+
+### Removed
+
+
 ## <1.2> - <6-12-2023>
 
 ### Sprint learnings
 
+* Aprendí a hacer un documento "llave" para reutilizar en varias instancias de la App, y relacionarlo con la API
+* Aprendí a pasar información de un componente a otro a través de su componente padre. 
 
 ### Added
 
+* Funcionalidad de recargar la página al hacer click al siteId (logo del site)
 
 ### Changed
 

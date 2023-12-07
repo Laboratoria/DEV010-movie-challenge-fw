@@ -31,9 +31,14 @@ const router = createBrowserRouter([
 
 
 function App(){
+  const reload = () => {
+    window.location.href = '/';
+  }
+
   return (
     <><header>
-      <SiteId />
+      <SiteId 
+      reload={reload}/>
       <Navigator />
     </header>
     <main>

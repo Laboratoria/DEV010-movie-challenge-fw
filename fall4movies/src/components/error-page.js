@@ -15,4 +15,3 @@ export default function ErrorPage() {
   );
 }
 
-//TODO mejorar la calidad de la imagen del logo

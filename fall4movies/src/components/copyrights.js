@@ -9,7 +9,4 @@ function Copyrights() {
       <img className="TMDBLogo" src={dataBase} alt="The Movie Data Base logo"/>
     </article>
   }
-  
-  //TODO que al clickear el logo, recargue el site
-  
   export default Copyrights;

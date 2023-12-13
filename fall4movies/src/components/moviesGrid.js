@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import getHttp from "../functions/httpClient";
 
 
-function MoviesGrid() {
+function MoviesGrid({searchText}) {
 
   const [ movies , setMovie]  = useState([]);
 
@@ -14,7 +14,7 @@ function MoviesGrid() {
       setMovie(data.results);
     }))
     .catch(err => console.error(err));
-  }, []);
+  }, [searchText]);
 
   return (
     <ul id="MoviesGrid">

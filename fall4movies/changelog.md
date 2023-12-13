@@ -9,7 +9,10 @@
 
 ### Changed
 
+
 ### Fixed
+
+* Se hizo una reestructuración completa al site de manera de poder corregir algunos errores de la navegación
 
 ### Removed
 

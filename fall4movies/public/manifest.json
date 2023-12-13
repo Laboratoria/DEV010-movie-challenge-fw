@@ -1,0 +1,20 @@
+{
+  "short_name": "Fall4Movies",
+  "name": "Fall 4 Movies",
+  "icons": [
+    {
+      "src": "icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "700x593"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#18288D",
+  "background_color": "#18288D"
+}

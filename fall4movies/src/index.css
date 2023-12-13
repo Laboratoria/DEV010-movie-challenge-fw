@@ -1,0 +1,59 @@
+:root {
+  --Background-blue: #18288D;
+  --King-Blue:#2653AF;
+  --Contrast-Yellow:#FFC13D;
+  --accent-Rose: #ECA39D;
+  --dirtyWhite:#F3F3F1;
+}
+*{
+  font-family:'Merriweather Sans', sans-serif;
+  font-size: 15px;
+}
+body{
+  margin: 0px;
+  font-size: 18px;
+  background-color: var(--Background-blue);
+}
+
+header{
+ background-color: var(--Contrast-Yellow);
+ Display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+main{
+  background-color: var(--Background-blue);
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+  flex-direction: column;
+}
+footer{
+  background-color: var(--King-Blue);
+  display:flex;
+}
+
+h2{
+  font-family:  'Merriweather Sans', sans-serif; /*TODO Crear variable glbal para el tipo de letra*/
+  font-weight: 501;
+  font-size: larger;
+  color: var(--Contrast-Yellow);
+  margin: 15px 0px 5px 0px;
+}
+
+h3{
+  font-family:  'Merriweather Sans', sans-serif;;
+  color: var(--accent-Rose);
+  font-size: large;
+  font-weight: 501;
+  padding:0px;
+  margin: 0px 0px 20px 0px;
+}
+
+a{
+  text-decoration: none;
+  color:var(--Contrast-Yellow)
+}
+

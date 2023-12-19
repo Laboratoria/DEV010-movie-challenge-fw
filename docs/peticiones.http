@@ -1,0 +1,2 @@
+GET https://api.themoviedb.org/3/discover/movie?api_key=4e88ef98afd8eeb07600b3e91464bebd&with_genres=27 HTTP/1.1
+content-type: application/json
